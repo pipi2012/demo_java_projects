@@ -4,11 +4,11 @@
          http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	version="3.0">
 	<servlet>
-		<servlet-name>TestServletController</servlet-name>
-		<servlet-class>cn.starscount.demo.maven_webapp_deom.test.TestServletbyXmlContrlloer</servlet-class>
+		<servlet-name>TestServletXml</servlet-name>
+		<servlet-class>cn.starscount.demo.maven_webapp.test.TestServletXml</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>TestServletController</servlet-name>
+		<servlet-name>TestServletXml</servlet-name>
 		<url-pattern>/testservletxml</url-pattern>
 	</servlet-mapping>
 </web-app>
